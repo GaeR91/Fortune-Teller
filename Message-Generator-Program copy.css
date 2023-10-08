@@ -1,0 +1,32 @@
+.container {
+    font-size: 30px;
+    font-family: "Dancing Script", Arial, Helvetica, sans-serif;
+    background-color: navy;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h1, h3, p, button {
+    flex-grow: inherit;
+    flex-shrink: inherit;
+}
+
+button {
+    background-color: yellow;
+    border-radius: 20%;
+    height: 100px;
+    width: 200px;
+}
+
+#fortune {
+    background-color: black;
+    color: aliceblue;
+    border: 10px solid yellow;
+    height: 100px;
+    width: 800px;
+    margin: 20px 0;
+}
