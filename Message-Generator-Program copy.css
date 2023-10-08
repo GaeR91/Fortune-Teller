@@ -23,10 +23,13 @@ button {
 }
 
 #fortune {
+    display: flex;
     background-color: black;
     color: aliceblue;
     border: 10px solid yellow;
     height: 100px;
     width: 800px;
     margin: 20px 0;
+    align-items: center;
+    justify-content: center
 }
